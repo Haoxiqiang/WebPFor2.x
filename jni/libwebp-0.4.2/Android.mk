@@ -105,6 +105,6 @@ else
   include $(BUILD_STATIC_LIBRARY)
 endif
 
-include $(LOCAL_PATH)/examples/Android.mk
+#include $(LOCAL_PATH)/examples/Android.mk
 
 $(call import-module,android/cpufeatures)
